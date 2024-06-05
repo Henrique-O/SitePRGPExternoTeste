@@ -1,0 +1,940 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --branco: #f8f7f4;
+    --preto: #0B1215;
+    --azulEscuro: #182534;
+    --AzulAcizentado: #112D43;
+    --azulClaro: #3A96DD;
+    --amarelo: #FDF414;
+
+    --inter: "Inter", sans-serif;
+}
+
+@media screen and (max-width: 1055px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--azulEscuro);
+        padding: 24px;
+    }
+
+    .headerSocialMedias {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 32px;
+    }
+
+    .header>div>a>svg {
+        background-color: var(--AzulAcizentado);
+    }
+
+    .insta,
+    .youtube {
+        padding: 16px;
+        border-radius: 16px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .insta:hover,
+    .youtube:hover {
+        background-color: var(--azulClaro);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .topnav {
+        display: none;
+    }
+
+    .navMobile {
+        background-color: var(--AzulAcizentado);
+        font-size: 14px;
+    }
+
+    .navMobile>div>span {
+        color: var(--branco);
+    }
+
+    #menu-button {
+        background-color: var(--AzulAcizentado);
+        color: var(--branco);
+        border: none;
+        padding: 16px;
+        font-size: 25px;
+    }
+
+    #menu {
+        display: none;
+        margin-top: 10px;
+    }
+
+    #menu>ul>li {
+        font-size: 16px;
+        text-decoration: none;
+        margin-top: 5px;
+        padding: 4px 20px;
+    }
+
+    .division{
+        height: 1px;
+        background-color: var(--branco);
+    }
+
+    .moreLinks {
+        margin-left: 10px;
+    }
+
+    .subLinks {
+        margin-left: 20px;
+    }
+
+    .navMobile a {
+        color: var(--branco);
+        text-decoration: none;
+    }
+
+    .navMobile ul,
+    .navMobile li {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+
+    body {
+        background-color: var(--azulEscuro);
+        font-family: var(--inter);
+    }
+
+    h1 {
+        background-color: var(--azulClaro);
+        color: var(--branco);
+        font-size: 24px;
+        text-transform: uppercase;
+        padding: 24px;
+    }
+
+    .subTitle {
+        background-color: var(--amarelo);
+        color: var(--AzulAcizentado);
+        font-size: 20px;
+        text-transform: uppercase;
+        margin: 24px 24px 16px 24px;
+        border-radius: 0 32px 0 32px;
+        padding: 16px;
+    }
+
+    .div1 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 24px;
+        color: var(--branco);
+    }
+
+    .div1 > .imgLei12608{
+        width: 100%;
+    }
+
+    .articuladoresELeis {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .articuladores {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+
+    .articuladores>img {
+        width: 20%;
+        border-radius: 4px;
+    }
+
+    .leisResolucoes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 16px 24px 24px 24px;
+    }
+
+    .saibaMais {
+        display: flex;
+        justify-content: center;
+        background-color: var(--AzulAcizentado);
+        color: var(--branco);
+        text-transform: uppercase;
+        border-radius: 8px;
+        font-size: 20px;
+        padding: 8px;
+        margin: 0 24px;
+    }
+
+    .leisResolucoes > div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        gap: 32px;
+    }
+
+    .leisResolucoes > div > .lei {
+        background-color: var(--AzulAcizentado);
+        color: var(--branco);
+        font-size: 16px;
+        padding: 16px 26px;
+        border-radius: 8px;
+        margin-bottom: 16px;
+    }
+
+    .leisResolucoes > div > a {
+        background-color: var(--AzulAcizentado);
+        color: var(--branco);
+        font-size: 16px;
+        padding: 16px;
+        border-radius: 8px;
+        margin-bottom: 16px;
+    }
+
+    .leisResolucoes > div > a:hover {
+        background-color: var(--azulClaro);
+        transition: 0.5s;
+    }
+
+    .imgLei{
+        width: 100%;
+    }
+
+    .imgLei12608 {
+        text-align: left;
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+
+    .subTitle2 {
+        background-color: var(--amarelo);
+        color: var(--AzulAcizentado);
+        font-size: 20px;
+        text-align: right;
+        text-transform: uppercase;
+        margin: 24px 24px 16px 24px;
+        border-radius: 32px 0 32px 0;
+        padding: 16px;
+    }
+
+    .respCaesb {
+        margin: 0 24px;
+        width: 85%;
+    }
+    
+    .div2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+        color: var(--branco);
+        margin: 24px;
+        gap: 8px;
+    }
+
+    .textDiv2 {
+        font-size: 12px;
+    }
+
+    .imgComunidade {
+        width: 100%;
+        border-radius: 16px;
+    }
+
+    hr {
+        background-color: var(--azulClaro);
+        border: none;
+        height: 10px;
+    }
+
+    .footer {
+        margin: 24px; 
+        text-align: center;
+    }
+
+    h3 {
+        color: var(--branco);
+        text-align: center;
+        font-size: 20px;
+        margin: 8px 0;
+    }
+
+    .textFooter {
+        color: var(--branco);
+        font-size: 12px;
+        text-align: center;
+        margin: 16px;
+    }
+
+    .rigths {
+        color: var(--branco);
+        font-size: 12px;
+        margin-top: 64px;
+    }
+}
+
+@media screen and (min-width: 1055px) and (max-width: 1229px) {
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--azulEscuro);
+        padding: 64px 180px;
+    }
+
+    .headerSocialMedias {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 32px;
+    }
+
+    .header>div>a>svg {
+        background-color: var(--AzulAcizentado);
+    }
+
+    .insta,
+    .youtube {
+        padding: 16px;
+        border-radius: 16px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .insta:hover,
+    .youtube:hover {
+        background-color: var(--azulClaro);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    /* Add a black background color to the top navigation */
+    .topnav {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--AzulAcizentado);
+        padding: 0 180px;
+        overflow: hidden;
+        text-transform: uppercase;
+        font-family: var(--inter);
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: var(--branco);
+        text-align: center;
+        padding: 24px 16px;
+        text-decoration: none;
+        font-size: 15px;
+        flex-grow: 1;
+    }
+
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+        display: none;
+    }
+
+    /* Dropdown container - needed to position the dropdown content */
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    /* Style the dropdown button to fit inside the topnav */
+    .dropdown .dropbtn {
+        font-size: 15px;
+        border: none;
+        outline: none;
+        color: var(--branco);
+        padding: 24px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: var(--AzulAcizentado);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    /* Style the links inside the dropdown */
+    .dropdown-content a {
+        float: none;
+        color: var(--branco);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        text-transform: uppercase;
+        border-bottom: 1px solid var(--branco);
+        cursor: pointer;
+    }
+
+    .dropdown-content > .borderBottom {
+        border-bottom: none;
+    }
+
+    /* Add a dark background on topnav links and the dropdown button on hover */
+    .topnav a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: var(--azulClaro);
+        color: var(--branco);
+        transition: 0.3s;
+    }
+
+    /* Add a grey background to dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: var(--azulClaro);
+        color: var(--branco);
+        cursor: pointer;
+    }
+
+    /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .navMobile {
+        display: none;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    body {
+        background-color: var(--azulEscuro);
+        font-family: var(--inter);
+    }
+
+    .title {
+        background-color: var(--azulClaro);
+        color: var(--branco);
+        font-size: 24px;
+        text-transform: uppercase;
+        margin: 32px 0 16px 180px;
+        padding: 32px;
+    }
+
+    .subTitle {
+        background-color: var(--amarelo);
+        color: var(--AzulAcizentado);
+        font-size: 24px;
+        text-transform: uppercase;
+        margin: 16px 32px 16px 360px;
+        border-radius: 0 32px 0 32px;
+        padding: 16px;
+    }
+
+    .div1 {
+        display: flex;
+        align-items: start;
+        text-align: justify;
+        flex-direction: row-reverse;
+        color: var(--branco);
+        gap: 16px;
+        margin: 0 32px 16px 360px;
+    }
+
+    .div1 .todasArticuladores {
+        width: 35%;
+    }
+
+    .div1 > .imgLei12608 {
+        width: 65%;
+    }
+
+    .todasArticuladores {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .todasArticuladores > h3 {
+        font-size: 24px;
+    }
+
+    .articuladores {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        gap:32px;
+        margin-bottom: 8px;
+    }
+
+    .articuladores>img {
+        width: 25%;
+        border-radius: 4px;
+    }
+
+    .leisResolucoes {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        margin: 0 64px 0 360px;
+    }
+
+    .saibaMais {
+        display: flex;
+        justify-content: center;
+        background-color: var(--AzulAcizentado);
+        color: var(--branco);
+        text-transform: uppercase;
+        margin: 0 64px 0 360px;
+        border-radius: 8px;
+        font-size: 24px;
+        padding: 8px;
+        margin-bottom: 16px;
+    }
+
+    .leisResolucoes > div {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        gap: 16px;
+        margin-top: 16px;
+    }
+
+    .leisResolucoes > div > a {
+        background-color: var(--AzulAcizentado);
+        color: var(--branco);
+        font-size: 12px;
+        padding: 16px;
+        border-radius: 8px;
+    }
+
+    .leisResolucoes > div > a:hover {
+        background-color: var(--azulClaro);
+        transition: 0.5s;
+    }
+
+    .imgLei{
+        width: 100%;
+    }
+
+    .imgLei12608 {
+        text-align: right;
+    }
+
+    .subTitle2{
+        background-color: var(--amarelo);
+        color: var(--AzulAcizentado);
+        font-size: 24px;
+        text-transform: uppercase;
+        text-align: right;
+        margin: 32px 360px 16px 32px;
+        border-radius: 0 32px 0 32px;
+        padding: 16px;
+    }
+
+    .respCaesb {
+        margin: 0 0 16px 360px;
+        width: 50%;
+    }
+    
+    .div2 {
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        color: var(--branco);
+        gap: 16px;
+        margin: 0 32px 32px 360px;
+    }
+
+    .div2>div {
+        width: 50%;
+    }
+
+    .textDiv2 {
+        font-size: 16px;
+    }
+
+    .imgComunidade {
+        width: 100%;
+        border-radius: 64px 0 64px 0;
+    }
+
+    hr {
+        background-color: var(--azulClaro);
+        border: none;
+        height: 10px;
+    }
+
+    .footer {
+        margin: 32px 180px 32px 180px;
+        text-align: center;
+    }
+
+    h3 {
+        color: var(--branco);
+        text-align: center;
+        font-size: 24px;
+        margin: 8px 0;
+    }
+
+    .textFooter {
+        color: var(--branco);
+        font-size: 20px;
+        text-align: center;
+        margin: 16px;
+    }
+
+    .rigths {
+        color: var(--branco);
+        font-size: 20px;
+        margin-top: 64px;
+    }
+
+}
+
+@media screen and (min-width: 1230px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--azulEscuro);
+        padding: 64px 180px;
+    }
+
+    .headerSocialMedias {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 32px;
+    }
+
+    .header>div>a>svg {
+        background-color: var(--AzulAcizentado);
+    }
+
+    .insta,
+    .youtube {
+        padding: 16px;
+        border-radius: 16px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .insta:hover,
+    .youtube:hover {
+        background-color: var(--azulClaro);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    /* Add a black background color to the top navigation */
+    .topnav {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--AzulAcizentado);
+        padding: 0 180px;
+        overflow: hidden;
+        text-transform: uppercase;
+        font-family: var(--inter);
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: var(--branco);
+        text-align: center;
+        padding: 24px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        flex-grow: 1;
+    }
+
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+        display: none;
+    }
+
+    /* Dropdown container - needed to position the dropdown content */
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    /* Style the dropdown button to fit inside the topnav */
+    .dropdown .dropbtn {
+        font-size: 20px;
+        border: none;
+        outline: none;
+        color: var(--branco);
+        padding: 24px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: var(--AzulAcizentado);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    /* Style the links inside the dropdown */
+    .dropdown-content a {
+        float: none;
+        color: var(--branco);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-bottom: 1px solid var(--branco)
+    }
+
+    .dropdown-content > .borderBottom {
+        border-bottom: none;
+    }
+
+    /* Add a dark background on topnav links and the dropdown button on hover */
+    .topnav a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: var(--azulClaro);
+        color: var(--branco);
+        transition: 0.3s;
+    }
+
+    /* Add a grey background to dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: var(--azulClaro);
+        color: var(--branco);
+        cursor: pointer;
+    }
+
+    /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .navMobile {
+        display: none;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    body {
+        background-color: var(--azulEscuro);
+        font-family: var(--inter);
+    }
+
+    .title {
+        background-color: var(--azulClaro);
+        color: var(--branco);
+        font-size: 32px;
+        text-transform: uppercase;
+        margin: 32px 0 16px 180px;
+        padding: 32px;
+    }
+
+    .subTitle {
+        background-color: var(--amarelo);
+        color: var(--AzulAcizentado);
+        font-size: 24px;
+        text-transform: uppercase;
+        margin: 16px 64px 16px 360px;
+        border-radius: 0 32px 0 32px;
+        padding: 16px;
+    }
+
+    .div1 {
+        display: flex;
+        align-items: start;
+        text-align: justify;
+        flex-direction: row-reverse;
+        color: var(--branco);
+        gap: 40px;
+        margin: 0 64px 16px 360px;
+    }
+
+    .div1 > div {
+        width: 50%;
+    }
+
+    .todasArticuladores {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .articuladores {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        gap:32px;
+        margin-bottom: 8px;
+    }
+
+    .articuladores>img {
+        width: 16%;
+        border-radius: 4px;
+    }
+
+    .leisResolucoes {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        margin: 0 64px 0 360px;
+    }
+
+    .saibaMais {
+        display: flex;
+        justify-content: center;
+        background-color: var(--AzulAcizentado);
+        color: var(--branco);
+        text-transform: uppercase;
+        margin: 0 64px 0 360px;
+        border-radius: 8px;
+        font-size: 24px;
+        padding: 8px;
+        margin-bottom: 16px;
+    }
+
+    .leisResolucoes > div {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        gap: 16px;
+        margin-top: 16px;
+    }
+
+    .leisResolucoes > div > a {
+        background-color: var(--AzulAcizentado);
+        color: var(--branco);
+        font-size: 16px;
+        padding: 16px;
+        border-radius: 8px;
+    }
+
+    .leisResolucoes > div > a:hover {
+        background-color: var(--azulClaro);
+        transition: 0.5s;
+    }
+
+    .imgLei{
+        width: 100%;
+    }
+
+    .imgLei12608 {
+        text-align: right;
+    }
+
+    .subTitle2{
+        background-color: var(--amarelo);
+        color: var(--AzulAcizentado);
+        font-size: 24px;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 32px 360px 16px 64px;
+        border-radius: 0 32px 0 32px;
+        padding: 16px;
+    }
+
+    .respCaesb {
+        margin: 0 0 16px 360px;
+        width: 50%;
+    }
+    
+    .div2 {
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        color: var(--branco);
+        gap: 40px;
+        margin: 0 64px 32px 360px;
+    }
+
+    .div2>div {
+        width: 50%;
+    }
+
+    .textDiv2 {
+        font-size: 28px;
+    }
+
+    .imgComunidade {
+        width: 100%;
+        border-radius: 64px 0 64px 0;
+    }
+
+    hr {
+        background-color: var(--azulClaro);
+        border: none;
+        height: 10px;
+    }
+
+    .footer {
+        margin: 32px 180px 32px 180px;
+        text-align: center;
+    }
+
+    h3 {
+        color: var(--branco);
+        text-align: center;
+        font-size: 35px;
+        margin: 8px 0;
+    }
+
+    .textFooter {
+        color: var(--branco);
+        font-size: 24px;
+        text-align: center;
+        margin: 16px;
+    }
+
+    .rigths {
+        color: var(--branco);
+        font-size: 20px;
+        margin-top: 64px;
+    }
+}
