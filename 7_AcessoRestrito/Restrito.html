@@ -10,13 +10,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="StyleRestrito.css">
   <title>Acesso Restrito</title>
+  
 </head>
 
 <header>
   <div class="header">
     <div>
-      <a href="../1_TelaInicial/index.html"><img src="../assertsPadroes/img/LogoCaesbBranco.png" alt="Lobo Caesb" width="80"
-          height="80"></a>
+      <a href="../1_TelaInicial/index.html"><img src="../assertsPadroes/img/LogoCaesbBranco.png" alt="Lobo Caesb"
+          width="80" height="80"></a>
     </div>
 
     <div class="headerSocialMedias">
@@ -106,37 +107,61 @@
 
   <section>
     <div class="div1">
-      <h1>Login</h1>
-
-      <input type="email" id="" placeholder="Email">
-      <input type="password" id="" placeholder="Senha">
-
-      <button class="submit">Entrar</button>
-
-      <span>Órgãos públicos com direito a Acesso: Caesb, ADASA, Defesa Civil, etc...</span>
+        <h1>Login</h1>
+        <form id="loginForm">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="password" id="senha" name="senha" placeholder="Senha" required>
+            <button type="submit" class="submit">Entrar</button>
+        </form>
+        <span>Órgãos públicos com direito a Acesso: Caesb, ADASA, Defesa Civil, etc...</span>
     </div>
-  </section>
-
+</section>
 
   <hr>
 
-  <footer>
-    <section class="footer">
-      <a href="index.html"><img src="../assertsPadroes/img/LogoCaesbBranco.png" alt="Lobo Caesb" width="80" height="80"
-          class="logoFooter"></a>
-      <div>
-        <h3>Fale conosco</h3>
-        <p class="textFooter">Central de Atendimento ao Usuário: Fone 115 (24horas)</p>
-        <p class="textFooter">Companhia de Saneamento Ambiental do Distrito Federal - Caesb Av. Sibipiruna - Lotes
-          13/21 - Centro de Gestão Águas Emendadas - Águas Claras - Brasília/DF - CEP: 71.928-720 </p>
-        <p class="rigths">Todos os diteitos reservados © 2024 | PRGP | Brasília - DF</p>
-      </div>
-    </section>
-
-  </footer>
-
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Impede o envio padrão do formulário
+    
+        // Credenciais corretas (para fins de demonstração)
+        const validCredentials = {
+            'caesb@gov.com': 'A9v#L2k$N8x@R4m!',
+            'adasa@gov.com': 'B8z@K3m$Q5t&J7v!',
+            'defesacivil@gov.com': 'C7w!J2l$P4u#L6m!'
+        };
+    
+        // Obter valores dos campos do formulário
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('senha').value;
+    
+        // Validar credenciais
+        if (validCredentials[email] && validCredentials[email] === password) {
+            // Redirecionar para a página desejada
+            window.location.href = 'LoginExecutado/InRestrito.html';
+        } else {
+            // Mostrar uma mensagem de erro (opcional)
+            alert('Email ou senha incorretos!');
+        }
+    });
+    </script>
+    
   <script src="../1_TelaInicial/main.js"></script>
   <script src="https://kit.fontawesome.com/f07fda0370.js" crossorigin="anonymous"></script>
 </body>
+
+<footer>
+  <section class="footer">
+    <a href="../../1_TelaInicial/index.html"><img src="../assertsPadroes/img/LogoCaesbBranco.png" alt="Lobo Caesb" width="80" height="80"
+        class="logoFooter"></a>
+    <div>
+      <h3>Fale conosco</h3>
+      <p class="textFooter">Central de Atendimento ao Usuário: Fone 115 (24horas)</p>
+      <p class="textFooter">Companhia de Saneamento Ambiental do Distrito Federal - Caesb Av. Sibipiruna - Lotes
+        13/21 - Centro de Gestão Águas Emendadas - Águas Claras - Brasília/DF - CEP: 71.928-720 </p>
+      <p class="rigths">Todos os diteitos reservados © 2024 | PRGP | Brasília - DF</p>
+    </div>
+  </section>
+
+</footer>
 
 </html>
