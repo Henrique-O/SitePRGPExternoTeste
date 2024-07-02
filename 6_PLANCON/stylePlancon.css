@@ -232,6 +232,9 @@
         font-size: 12px;
     }
 
+    .radius{
+        border-radius: 24px;
+    }
 
     hr {
         background-color: var(--azulClaro);
@@ -531,6 +534,10 @@
     .div4 > .subTitle {
         font-size: 20px;
         margin-bottom: 8px;
+    }
+
+    .radius{
+        border-radius: 24px;
     }
 
     hr {
