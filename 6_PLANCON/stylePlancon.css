@@ -150,6 +150,11 @@
         font-size: 16px;
     }
 
+    .underline {
+        color: var(--branco);
+        text-decoration: underline;
+    }
+
     .div1 > div > ul > li {
         margin-left: 18px;
         font-size: 16px;
@@ -419,7 +424,7 @@
     .subTitle {
         background-color: var(--amarelo);
         color: var(--AzulAcizentado);
-        font-size: 24px;
+        font-size: 20px;
         text-transform: uppercase;
         border-radius: 0 32px 0 32px;
         padding: 16px;
@@ -437,6 +442,11 @@
 
     .textNoticia1 {
         font-size: 25px;
+    }
+
+    .underline {
+        color: var(--branco);
+        text-decoration: underline;
     }
 
     .div1 > div {
@@ -467,7 +477,7 @@
     .subTitle2 {
         background-color: var(--amarelo);
         color: var(--AzulAcizentado);
-        font-size: 24px;
+        font-size: 20px;
         text-transform: uppercase;
         margin-bottom: 8px;
         border-radius: 32px 0;
@@ -477,6 +487,7 @@
     .section3 {
         display: flex;
         flex-direction: row;
+        justify-content: center;
         margin: 32px 180px;
     }
 
@@ -496,7 +507,8 @@
     }
 
     .div3 > div > .subTitle {
-        font-size: 16px;
+        font-size: 20px;
+        margin-bottom: 8px;
     }
 
     .div3 > div > a > img {
@@ -508,6 +520,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 8px;
     }
 
     .div4 > a >img {
@@ -516,7 +529,8 @@
     }
 
     .div4 > .subTitle {
-        font-size: 16px;
+        font-size: 20px;
+        margin-bottom: 8px;
     }
 
     hr {
@@ -713,6 +727,7 @@
         font-size: 24px;
         text-transform: uppercase;
         border-radius: 0 32px 0 32px;
+        margin-bottom: 8px;
         padding: 16px;
     }
 
@@ -728,6 +743,11 @@
 
     .textNoticia1 {
         font-size: 30px;
+    }
+
+    .underline {
+        color: var(--branco);
+        text-decoration: underline;
     }
 
     .div1 > div {
@@ -788,7 +808,8 @@
     }
 
     .div3 > div > .subTitle {
-        font-size: 20px;
+        font-size: 24px;
+        margin-bottom: 8px;
     }
 
     .div3 > div > a > img {
@@ -800,11 +821,16 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 8px;
     }
 
     .div4 > a >img {
         width: 200px;
         height: 200px;
+    }
+
+    .radius{
+        border-radius: 24px;
     }
 
     hr {
