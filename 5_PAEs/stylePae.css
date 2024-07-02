@@ -159,6 +159,7 @@
 
     li {
         margin-bottom: 16px;
+        margin-left: 24px;
     }
 
     .div2 {
@@ -171,7 +172,6 @@
         margin-bottom: 16px;
     }
 
-    
 
     .subTitle2 {
         background-color: var(--amarelo);
@@ -455,6 +455,7 @@
 
     li {
         margin-bottom: 16px;
+        margin-left: 24px;
     }
 
     .div2 {
@@ -750,6 +751,7 @@
 
     li {
         margin-bottom: 16px;
+        margin-left: 32px;
     }
 
     .div2 {
