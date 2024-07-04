@@ -31,6 +31,10 @@
         gap: 32px;
     }
 
+    .logoCaesb{
+        width: 75%;
+    }
+
     .header>div>a>svg {
         background-color: var(--AzulAcizentado);
     }
@@ -168,12 +172,12 @@
     .subTitleN1{
         background-color: var(--amarelo);
         color: var(--AzulAcizentado);
-        font-size: 20px;
+        font-size: 16px;
         text-transform: uppercase;
         border-radius: 0 32px 0 32px;
         padding: 16px;
         margin-bottom: 8px;
-        width: 65%;
+        
     }
 
     .textNoticia1 {
@@ -264,6 +268,10 @@
         align-items: center;
         justify-content: end;
         gap: 32px;
+    }
+
+    .logoCaesb{
+        width: 50%;
     }
 
     .header>div>a>svg {
@@ -546,6 +554,10 @@
         align-items: center;
         justify-content: end;
         gap: 32px;
+    }
+
+    .logoCaesb{
+        width: 30%;
     }
 
     .header>div>a>svg {
