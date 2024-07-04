@@ -133,6 +133,7 @@
     .pae {
         background-color: var(--AzulAcizentado);
         color: var(--branco);
+        text-decoration: none;
         padding: 16px;
         border-radius: 8px;
     }
@@ -322,7 +323,7 @@
     .div1 {
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         margin: 64px 180px;
         gap: 16px;
@@ -331,6 +332,7 @@
     .pae {
         background-color: var(--AzulAcizentado);
         color: var(--branco);
+        text-decoration: none;
         padding: 16px;
         border-radius: 8px;
     }
