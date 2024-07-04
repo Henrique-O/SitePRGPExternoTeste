@@ -30,6 +30,10 @@
         gap: 32px;
     }
 
+    .logoCaesb{
+        width: 75%;
+    }
+
     .header>div>a>svg {
         background-color: var(--AzulAcizentado);
     }
@@ -155,7 +159,7 @@
     }
     
     .submit {
-        width: 25%;
+        width: 35%;
         height: 40px;
         font-size: 20px;
         border-radius: 8px;
@@ -174,6 +178,7 @@
     .div1 > span {
         color: var(--branco);
         margin-top: 16px;
+        font-size: 12px;
     }
 
     hr {
@@ -223,6 +228,10 @@
         align-items: center;
         justify-content: end;
         gap: 32px;
+    }
+
+    .logoCaesb{
+        width: 50%;
     }
 
     .header>div>a>svg {
@@ -393,7 +402,7 @@
     }
     
     .submit {
-        width: 25%;
+        width: 35%;
         height: 40px;
         font-size: 20px;
         border-radius: 8px;
@@ -461,6 +470,10 @@
         align-items: center;
         justify-content: end;
         gap: 32px;
+    }
+
+    .logoCaesb{
+        width: 30%;
     }
 
     .header>div>a>svg {
@@ -571,6 +584,7 @@
         cursor: pointer;
     }
 
+    /* Show the dropdown menu when the user moves the mouse over the dropdown button */
     .dropdown:hover .dropdown-content {
         display: block;
     }
