@@ -30,6 +30,10 @@
         gap: 32px;
     }
 
+    .logoCaesb {
+        width: 75%;
+    }
+
     .header>div>a>svg {
         background-color: var(--AzulAcizentado);
     }
@@ -180,6 +184,10 @@
         align-items: center;
         justify-content: end;
         gap: 32px;
+    }
+
+    .logoCaesb {
+        width: 50%;
     }
 
     .header>div>a>svg {
@@ -376,6 +384,10 @@
         gap: 32px;
     }
 
+    .logoCaesb{
+        width: 30%;
+    }
+
     .header>div>a>svg {
         background-color: var(--AzulAcizentado);
     }
@@ -509,7 +521,7 @@
     .div1 {
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         margin: 64px 180px;
         gap: 16px;
@@ -520,6 +532,12 @@
         color: var(--branco);
         padding: 16px;
         border-radius: 8px;
+        text-decoration: none;
+    }
+
+    .pae:hover{
+        background-color: var(--azulClaro);
+        transition: 0.3s;
     }
 
     hr {
