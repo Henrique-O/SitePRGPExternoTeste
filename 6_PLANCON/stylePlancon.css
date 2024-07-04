@@ -31,6 +31,10 @@
         gap: 32px;
     }
 
+    .logoCaesb {
+        width: 75%;
+    }
+
     .header>div>a>svg {
         background-color: var(--AzulAcizentado);
     }
@@ -283,6 +287,10 @@
         align-items: center;
         justify-content: end;
         gap: 32px;
+    }
+
+    .logoCaesb {
+        width: 50%;
     }
 
     .header>div>a>svg {
@@ -587,6 +595,10 @@
         align-items: center;
         justify-content: end;
         gap: 32px;
+    }
+
+    .logoCaesb {
+        width: 30%;
     }
 
     .header>div>a>svg {
