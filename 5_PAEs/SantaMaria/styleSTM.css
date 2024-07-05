@@ -32,6 +32,10 @@
         gap: 32px;
     }
 
+    .logoCaesb {
+        width: 75%;
+    }
+
     .header>div>a>svg {
         background-color: var(--AzulAcizentado);
     }
@@ -310,12 +314,12 @@
         text-align: center;
         font-size: 18px;
         font-weight: bold;
-            color: var(--amarelo);
-            text-shadow: 
-                -2px -2px 0 var(--azulClaro),
-                2px -2px 0 var(--azulClaro),
-                -2px 2px 0 var(--azulClaro),
-                2px 2px 0 var(--azulClaro);
+        color: var(--amarelo);
+        text-shadow:
+            -2px -2px 0 var(--azulClaro),
+            2px -2px 0 var(--azulClaro),
+            -2px 2px 0 var(--azulClaro),
+            2px 2px 0 var(--azulClaro);
     }
 
     .img2 {
@@ -333,14 +337,14 @@
         gap: 8px;
         margin: 8px 24px 24px 24px;
     }
-    
-    .div4 > div {
+
+    .div4>div {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .div4 > .container {
+    .div4>.container {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -365,32 +369,33 @@
         width: 49.3%;
         border-radius: 8px;
     }
-    
+
     .msgTitle {
         text-decoration: underline;
         margin-right: 8px;
     }
-    
+
     .div5 {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        text-align: justify;
         gap: 8px;
         margin: 24px;
     }
-    
-    .div5 > div {
+
+    .div5>div {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
     .textImgIlu {
         color: var(--branco);
         font-size: 24px;
-        margin-bottom: 16px;  
+        margin-bottom: 16px;
     }
-    
+
     .imgLocalizaçãoSirenes {
         width: 100%;
         border-radius: 128px 0 128px 0;
@@ -404,39 +409,45 @@
 
     .textDiv5Li {
         color: var(--branco);
-        font-size: 16px;
-        margin-left: 16px;
+        text-shadow:
+            -2px -2px 0 #0D854C,
+            2px -2px 0 #0D854C,
+            -2px 2px 0 #0D854C,
+            2px 2px 0 #0D854C;
+        font-size: 24px;
+        margin-left: 32px;
     }
 
     .textDiv5Ol {
         font-size: 14px;
         font-weight: bold;
-            color: var(--branco);
-            text-shadow: 
-                -2px -2px 0 #0D854C,
-                2px -2px 0 #0D854C,
-                -2px 2px 0 #0D854C,
-                2px 2px 0 #0D854C;
-        margin-left: 16px;
+        color: var(--branco);
+        margin-left: 64px;
+    }
+
+    .textDiv5Li2 {
+        color: var(--branco);
+        text-shadow:
+            -2px -2px 0 #EB1E1E,
+            2px -2px 0 #EB1E1E,
+            -2px 2px 0 #EB1E1E,
+            2px 2px 0 #EB1E1E;
+        font-size: 24px;
+        margin-left: 32px;
     }
 
     .textDiv5Ol2 {
         font-size: 14px;
         font-weight: bold;
-            color: var(--branco);
-            text-shadow: 
-                -2px -2px 0 #EB1E1E,
-                2px -2px 0 #EB1E1E,
-                -2px 2px 0 #EB1E1E,
-                2px 2px 0 #EB1E1E;
-        margin-left: 32px;
+        color: var(--branco);
+        margin-left: 64px;
     }
 
     .btn {
         display: none;
     }
 
-    .btn:hover{
+    .btn:hover {
         background-color: var(--branco);
         color: var(--preto);
         transition: 0.5s;
@@ -453,7 +464,7 @@
         margin-top: 16px;
     }
 
-    .btnMobile:hover{
+    .btnMobile:hover {
         background-color: var(--branco);
         color: var(--preto);
         transition: 0.5s;
@@ -493,7 +504,7 @@
     }
 
     .footer {
-        margin: 24px; 
+        margin: 24px;
         text-align: center;
     }
 
@@ -533,6 +544,10 @@
         align-items: center;
         justify-content: end;
         gap: 32px;
+    }
+
+    .logoCaesb {
+        width: 50%;
     }
 
     .header>div>a>svg {
@@ -889,12 +904,12 @@
         text-align: center;
         font-size: 20px;
         font-weight: bold;
-            color: var(--amarelo);
-            text-shadow: 
-                -2px -2px 0 var(--azulClaro),
-                2px -2px 0 var(--azulClaro),
-                -2px 2px 0 var(--azulClaro),
-                2px 2px 0 var(--azulClaro);
+        color: var(--amarelo);
+        text-shadow:
+            -2px -2px 0 var(--azulClaro),
+            2px -2px 0 var(--azulClaro),
+            -2px 2px 0 var(--azulClaro),
+            2px 2px 0 var(--azulClaro);
     }
 
     .img2 {
@@ -912,19 +927,19 @@
         margin: 0 180px 16px 180px;
     }
 
-    .div4 > div{
+    .div4>div {
         width: 50%;
     }
 
-    .div4 > .justify {
+    .div4>.justify {
         text-align: justify;
     }
 
-    .div4 > .align {
+    .div4>.align {
         text-align: center;
     }
 
-    .div4 > div > .container {
+    .div4>div>.container {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -947,33 +962,34 @@
         width: 100%;
         border-radius: 8px;
     }
-    
+
     .msgTitle {
         text-decoration: underline;
         margin-right: 8px;
     }
-    
+
     .div5 {
         display: flex;
         flex-direction: row;
         align-items: center;
+        text-align: justify;
         gap: 40px;
         margin: 0 180px 32px 180px;
     }
-    
-    .div5 > div {
+
+    .div5>div {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 50%;
     }
-    
+
     .textImgIlu {
         color: var(--branco);
         font-size: 24px;
-        margin-bottom: 16px;  
+        margin-bottom: 16px;
     }
-    
+
     .imgLocalizaçãoSirenes {
         width: 100%;
         border-radius: 128px 0 128px 0;
@@ -983,40 +999,42 @@
     .textDiv5 {
         color: var(--branco);
         font-size: 14px;
-        text-align: justify;
     }
 
     .textDiv5Li {
         color: var(--branco);
-        font-size: 14px;
+        text-shadow:
+            -2px -2px 0 #0D854C,
+            2px -2px 0 #0D854C,
+            -2px 2px 0 #0D854C,
+            2px 2px 0 #0D854C;
+        font-size: 32px;
         margin-left: 32px;
-        text-align: justify;
     }
 
     .textDiv5Ol {
         font-size: 14px;
         font-weight: bold;
-        text-align: justify;
-            color: var(--branco);
-            text-shadow: 
-                -2px -2px 0 #0D854C,
-                2px -2px 0 #0D854C,
-                -2px 2px 0 #0D854C,
-                2px 2px 0 #0D854C;
+        color: var(--branco);
         margin-left: 64px;
+    }
+
+    .textDiv5Li2 {
+        color: var(--branco);
+        text-shadow:
+            -2px -2px 0 #EB1E1E,
+            2px -2px 0 #EB1E1E,
+            -2px 2px 0 #EB1E1E,
+            2px 2px 0 #EB1E1E;
+        font-size: 32px;
+        margin-left: 32px;
     }
 
     .textDiv5Ol2 {
         font-size: 14px;
         font-weight: bold;
-            color: var(--branco);
-            text-shadow: 
-                -2px -2px 0 #EB1E1E,
-                2px -2px 0 #EB1E1E,
-                -2px 2px 0 #EB1E1E,
-                2px 2px 0 #EB1E1E;
+        color: var(--branco);
         margin-left: 64px;
-        text-align: justify;
     }
 
     .btn {
@@ -1030,7 +1048,7 @@
         margin-top: 32px;
     }
 
-    .btn:hover{
+    .btn:hover {
         background-color: var(--branco);
         color: var(--preto);
         transition: 0.5s;
@@ -1111,6 +1129,10 @@
         align-items: center;
         justify-content: end;
         gap: 32px;
+    }
+
+    .logoCaesb {
+        width: 30%;
     }
 
     .header>div>a>svg {
@@ -1467,12 +1489,12 @@
         text-align: center;
         font-size: 32px;
         font-weight: bold;
-            color: var(--amarelo);
-            text-shadow: 
-                -2px -2px 0 var(--azulClaro),
-                2px -2px 0 var(--azulClaro),
-                -2px 2px 0 var(--azulClaro),
-                2px 2px 0 var(--azulClaro);
+        color: var(--amarelo);
+        text-shadow:
+            -2px -2px 0 var(--azulClaro),
+            2px -2px 0 var(--azulClaro),
+            -2px 2px 0 var(--azulClaro),
+            2px 2px 0 var(--azulClaro);
     }
 
     .img2 {
@@ -1490,19 +1512,19 @@
         margin: 0 180px 16px 180px;
     }
 
-    .div4 > div{
+    .div4>div {
         width: 50%;
     }
 
-    .div4 > .justify {
+    .div4>.justify {
         text-align: justify;
     }
 
-    .div4 > .align {
+    .div4>.align {
         text-align: center;
     }
 
-    .div4 > div > .container {
+    .div4>div>.container {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1525,12 +1547,12 @@
         width: 100%;
         border-radius: 16px;
     }
-    
+
     .msgTitle {
         text-decoration: underline;
         margin-right: 8px;
     }
-    
+
     .div5 {
         display: flex;
         flex-direction: row;
@@ -1538,22 +1560,22 @@
         gap: 40px;
         margin: 0 180px 32px 180px;
     }
-    
-    .div5 > div {
+
+    .div5>div {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 50%;
     }
-    
+
 
     .textImgIlu {
         color: var(--branco);
         font-size: 32px;
         margin-bottom: 16px;
-        
+
     }
-    
+
     .imgLocalizaçãoSirenes {
         width: 100%;
         border-radius: 128px 0 128px 0;
@@ -1562,41 +1584,46 @@
 
     .textDiv5 {
         color: var(--branco);
-        font-size: 24px;
         text-align: justify;
+        font-size: 24px;
     }
 
     .textDiv5Li {
         color: var(--branco);
+        text-shadow:
+            -2px -2px 0 #0D854C,
+            2px -2px 0 #0D854C,
+            -2px 2px 0 #0D854C,
+            2px 2px 0 #0D854C;
         font-size: 32px;
         margin-left: 32px;
-        text-align: justify;
     }
 
     .textDiv5Ol {
+        color: var(--branco);
+        text-align: justify;
         font-size: 24px;
         font-weight: bold;
-        text-align: justify;
-            color: var(--branco);
-            text-shadow: 
-                -2px -2px 0 #0D854C,
-                2px -2px 0 #0D854C,
-                -2px 2px 0 #0D854C,
-                2px 2px 0 #0D854C;
         margin-left: 64px;
     }
 
+    .textDiv5Li2 {
+        color: var(--branco);
+        text-shadow:
+            -2px -2px 0 #EB1E1E,
+            2px -2px 0 #EB1E1E,
+            -2px 2px 0 #EB1E1E,
+            2px 2px 0 #EB1E1E;
+        font-size: 32px;
+        margin-left: 32px;
+    }
+
     .textDiv5Ol2 {
+        color: var(--branco);
+        text-align: justify;
         font-size: 24px;
         font-weight: bold;
-            color: var(--branco);
-            text-shadow: 
-                -2px -2px 0 #EB1E1E,
-                2px -2px 0 #EB1E1E,
-                -2px 2px 0 #EB1E1E,
-                2px 2px 0 #EB1E1E;
         margin-left: 64px;
-        text-align: justify;
     }
 
     .btn {
@@ -1610,7 +1637,7 @@
         margin-top: 32px;
     }
 
-    .btn:hover{
+    .btn:hover {
         background-color: var(--branco);
         color: var(--preto);
         transition: 0.5s;
