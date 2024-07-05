@@ -32,6 +32,10 @@
         gap: 32px;
     }
 
+    .logoCaesb {
+        width: 75%;
+    }
+
     .header>div>a>svg {
         background-color: var(--AzulAcizentado);
     }
@@ -375,6 +379,7 @@
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        text-align: justify;
         gap: 8px;
         margin: 24px;
     }
@@ -404,32 +409,38 @@
 
     .textDiv5Li {
         color: var(--branco);
-        font-size: 16px;
-        margin-left: 16px;
+        text-shadow:
+            -2px -2px 0 #0D854C,
+            2px -2px 0 #0D854C,
+            -2px 2px 0 #0D854C,
+            2px 2px 0 #0D854C;
+        font-size: 24px;
+        margin-left: 32px;
     }
 
     .textDiv5Ol {
         font-size: 14px;
         font-weight: bold;
-            color: var(--branco);
-            text-shadow: 
-                -2px -2px 0 #0D854C,
-                2px -2px 0 #0D854C,
-                -2px 2px 0 #0D854C,
-                2px 2px 0 #0D854C;
-        margin-left: 16px;
+        color: var(--branco);
+        margin-left: 64px;
+    }
+
+    .textDiv5Li2 {
+        color: var(--branco);
+        text-shadow:
+            -2px -2px 0 #EB1E1E,
+            2px -2px 0 #EB1E1E,
+            -2px 2px 0 #EB1E1E,
+            2px 2px 0 #EB1E1E;
+        font-size: 24px;
+        margin-left: 32px;
     }
 
     .textDiv5Ol2 {
         font-size: 14px;
         font-weight: bold;
-            color: var(--branco);
-            text-shadow: 
-                -2px -2px 0 #EB1E1E,
-                2px -2px 0 #EB1E1E,
-                -2px 2px 0 #EB1E1E,
-                2px 2px 0 #EB1E1E;
-        margin-left: 32px;
+        color: var(--branco);
+        margin-left: 64px;
     }
 
     .btn {
@@ -533,6 +544,10 @@
         align-items: center;
         justify-content: end;
         gap: 32px;
+    }
+
+    .logoCaesb {
+        width: 50%;
     }
 
     .header>div>a>svg {
@@ -957,6 +972,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        text-align: justify;
         gap: 40px;
         margin: 0 180px 32px 180px;
     }
@@ -983,40 +999,42 @@
     .textDiv5 {
         color: var(--branco);
         font-size: 14px;
-        text-align: justify;
     }
 
     .textDiv5Li {
         color: var(--branco);
-        font-size: 14px;
+        text-shadow:
+            -2px -2px 0 #0D854C,
+            2px -2px 0 #0D854C,
+            -2px 2px 0 #0D854C,
+            2px 2px 0 #0D854C;
+        font-size: 32px;
         margin-left: 32px;
-        text-align: justify;
     }
 
     .textDiv5Ol {
         font-size: 14px;
         font-weight: bold;
-        text-align: justify;
-            color: var(--branco);
-            text-shadow: 
-                -2px -2px 0 #0D854C,
-                2px -2px 0 #0D854C,
-                -2px 2px 0 #0D854C,
-                2px 2px 0 #0D854C;
+        color: var(--branco);
         margin-left: 64px;
+    }
+
+    .textDiv5Li2 {
+        color: var(--branco);
+        text-shadow:
+            -2px -2px 0 #EB1E1E,
+            2px -2px 0 #EB1E1E,
+            -2px 2px 0 #EB1E1E,
+            2px 2px 0 #EB1E1E;
+        font-size: 32px;
+        margin-left: 32px;
     }
 
     .textDiv5Ol2 {
         font-size: 14px;
         font-weight: bold;
-            color: var(--branco);
-            text-shadow: 
-                -2px -2px 0 #EB1E1E,
-                2px -2px 0 #EB1E1E,
-                -2px 2px 0 #EB1E1E,
-                2px 2px 0 #EB1E1E;
+        color: var(--branco);
         margin-left: 64px;
-        text-align: justify;
     }
 
     .btn {
@@ -1111,6 +1129,10 @@
         align-items: center;
         justify-content: end;
         gap: 32px;
+    }
+
+    .logoCaesb {
+        width: 30%;
     }
 
     .header>div>a>svg {
@@ -1535,6 +1557,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        text-align: justify;
         gap: 40px;
         margin: 0 180px 32px 180px;
     }
@@ -1563,40 +1586,44 @@
     .textDiv5 {
         color: var(--branco);
         font-size: 24px;
-        text-align: justify;
     }
 
     .textDiv5Li {
         color: var(--branco);
+        text-shadow:
+            -2px -2px 0 #0D854C,
+            2px -2px 0 #0D854C,
+            -2px 2px 0 #0D854C,
+            2px 2px 0 #0D854C;
         font-size: 32px;
         margin-left: 32px;
-        text-align: justify;
     }
 
     .textDiv5Ol {
+        color: var(--branco);
+        text-align: justify;
         font-size: 24px;
         font-weight: bold;
-        text-align: justify;
-            color: var(--branco);
-            text-shadow: 
-                -2px -2px 0 #0D854C,
-                2px -2px 0 #0D854C,
-                -2px 2px 0 #0D854C,
-                2px 2px 0 #0D854C;
         margin-left: 64px;
     }
 
+    .textDiv5Li2 {
+        color: var(--branco);
+        text-shadow:
+            -2px -2px 0 #EB1E1E,
+            2px -2px 0 #EB1E1E,
+            -2px 2px 0 #EB1E1E,
+            2px 2px 0 #EB1E1E;
+        font-size: 32px;
+        margin-left: 32px;
+    }
+
     .textDiv5Ol2 {
+        color: var(--branco);
+        text-align: justify;
         font-size: 24px;
         font-weight: bold;
-            color: var(--branco);
-            text-shadow: 
-                -2px -2px 0 #EB1E1E,
-                2px -2px 0 #EB1E1E,
-                -2px 2px 0 #EB1E1E,
-                2px 2px 0 #EB1E1E;
         margin-left: 64px;
-        text-align: justify;
     }
 
     .btn {
